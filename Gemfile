@@ -45,6 +45,7 @@ gem 'twitter-typeahead-rails', :git => "https://github.com/yourabi/twitter-typea
   # We need this merged PR: https://github.com/yourabi/twitter-typeahead-rails/pull/22
 gem 'browser'
 gem 'kaminari'
+gem 'pry'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

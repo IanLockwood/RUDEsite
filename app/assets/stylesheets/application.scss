@@ -13,3 +13,9 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "bootstrap/variables";
+
+@import "variables";
+@import "theme";
+@import "utilities";
+@import "buttons";
+@import "welcome";

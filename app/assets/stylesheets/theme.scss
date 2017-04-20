@@ -1,0 +1,75 @@
+html {
+  font-size: 100%;
+  text-align: center;
+  color: $ser;
+}
+
+body {
+  background-color: $rq;
+  font-family: 'futura';
+  color: $ser;
+  font-size: 10px;
+
+  @media (min-width: $screen-md-min) {
+    font-size: 14px;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    font-size: 16px;
+  }
+}
+
+.main {
+  padding: 1em 1em;
+
+  @media (min-width: $screen-md-min) {
+    padding: 2em 2em;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    padding: 2em 3em;
+  }
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 5em;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 4em;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+p {
+  font-size: 2em;
+}
+
+nav {
+  background: $ser;
+  color: $rq;
+
+  a {
+    color: $rq;
+    text-transform: uppercase;
+
+    &:hover,
+    &:focus {
+      color: $ser;
+      background: $rq !important;
+    }
+  }
+
+  .navbar-toggle {
+    background-color: $rq;
+
+    .icon-bar {
+      background-color: $ser;
+    }
+  }
+}
