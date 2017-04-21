@@ -54,14 +54,25 @@ nav {
   background: $ser;
   color: $rq;
 
+  li.active {
+    a {      
+      color: $ser;
+      background: $rq !important;
+    }
+  }
+
   a {
     color: $rq;
     text-transform: uppercase;
 
-    &:hover,
-    &:focus {
+    &:hover {
       color: $ser;
       background: $rq !important;
+    }
+
+    &:focus {
+      color: $rq;
+      background: $ser !important;
     }
   }
 
