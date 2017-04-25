@@ -7,3 +7,17 @@
     }
   }
 }
+
+.welcome.about {
+  .press-links {
+    a {
+      display: block;
+      text-transform: uppercase;
+      text-decoration: underline;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}

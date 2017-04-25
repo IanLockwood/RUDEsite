@@ -4,4 +4,7 @@ class WelcomeController < ApplicationController
 
   def pitch
   end
+
+  def about
+  end
 end
